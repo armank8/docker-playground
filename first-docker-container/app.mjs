@@ -5,7 +5,7 @@ const app = express();
 const port = 5000;
 
 app.get("/", (req, res) => {
-  res.send("<h2>Welcome to Docker learning</h2>");
+  res.send("<h2>Welcome to Docker</h2>");
 });
 
 await connectToDatabase();
